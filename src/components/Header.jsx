@@ -1,12 +1,13 @@
-import KoinX from "../assets/koin-x.svg";
+import React from "react";
 
 const Header = () => {
   return (
-    <Header>
-      <div className="container mx-auto px-4">
-        <img src={KoinX} alt="Koin X Logo" />
-      </div>
-    </Header>
+    <div className="font-bold text-green-700">
+      Header
+      <p className="text-red-600">
+        Click on the Vite and React logos to learn more
+      </p>
+    </div>
   );
 };
 
